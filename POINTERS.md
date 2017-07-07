@@ -7,7 +7,7 @@
 |------------------------------|-------------------------|----------------------
 |[[0x3FBA92BC] + 0x20] + 0x13C |Anti-gravity kart glow   |00000000 = Glowing, 3F800000 = Not Glowing
 |[[0x3FBA92BC] + 0x20] + 0x140 |Anti-gravity kart glow radius|3F800000 = Normal?
-|[[0x3FBA92BC] + 0x20] + 0x145 |On-Screen Effects        |*See Below
+|[[0x3FBA92BC] + 0x20] + 0x145 |Kart/Player Effects      |*See Below
 |[[0x3FBA92BC] + 0x20] + 0x148 |Timer of some sort       |None
 |[[0x3FBA92BC] + 0x20] + 0x14C |Player has moved from start?|00000000 = False, 3F800000 = True
 |[[0x3FBA92BC] + 0x20] + 0x154 |Anti-gravity kart        |00000000 = Off, 3F800000 = On
@@ -42,7 +42,9 @@
 |[0x3FB3CD70] + 0x140          |Item Block Rotation Speed|FFFFFFFF = Slow/No Rotation. Offline only.
 |[0x3FB3CD70] + 0x84           |Time since last item use |Decimal Value. Offline only.
 
-*See ___ for more information about effects.
+*See [here](https://github.com/Megabyte918/MK8-Cheat-Codes/blob/master/Kart%20Effect%20Modifier) for more information about effects. Values are shifted to the right by 2 bytes. So for example the effect of 00001000 would display as 00000010 in memory.
 
 *0 = Not moving, 1 = Forward, 2 = Backward, 8 = Hop/Drift, 512 = Using Item, 1024 = Looking behind.
  Combos can be calculated just like they can with button activators.
+ 
+ *See [here](https://github.com/Megabyte918/MK8-Cheat-Codes/blob/master/Item%20Hack) for more information on Item ID's
