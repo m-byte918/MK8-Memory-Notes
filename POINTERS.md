@@ -47,4 +47,4 @@
 *0 = Not moving, 1 = Forward, 2 = Backward, 8 = Hop/Drift, 512 = Using Item, 1024 = Looking behind.
  Combos can be calculated just like they can with button activators.
  
- *See [here](https://github.com/Megabyte918/MK8-Cheat-Codes/blob/master/Item%20Hack) for more information on Item ID's
+ *See [here](https://github.com/Megabyte918/MK8-Cheat-Codes/blob/master/Item%20Hack%20%5BFishguy6564%20%26%20MrEvil%5D) for more information on Item ID's
