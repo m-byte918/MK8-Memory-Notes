@@ -42,7 +42,7 @@
 |[0x3FB3CD70] + 0x140          |Item Block Rotation Speed|FFFFFFFF = Slow/No Rotation. Offline only.
 |[0x3FB3CD70] + 0x84           |Time since last item use |Decimal Value. Offline only.
 
-*See [here](https://github.com/Megabyte918/MK8-Cheat-Codes/blob/master/Kart%20Effect%20Modifier) for more information about effects. Values are shifted to the right by 2 bytes. So for example the effect of 00001000 would display as 00000010 in memory.
+*See [here](https://github.com/Megabyte918/MK8-Cheat-Codes/blob/master/Player%20Effect%20Modifier%20%5BMegabyte918%5D) for more information about effects. Values are shifted to the right by 2 bytes. So for example the effect of 00001000 would display as 00000010 in memory.
 
 *0 = Not moving, 1 = Forward, 2 = Backward, 8 = Hop/Drift, 512 = Using Item, 1024 = Looking behind.
  Combos can be calculated just like they can with button activators.
