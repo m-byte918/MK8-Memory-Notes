@@ -37,7 +37,10 @@
 |[[0x3FB3CD70] + 0x28] - 0x84  |Amount of circling items |Determines how many items circle around you.
 |[[0x3FB3CD70] + 0x28] - 0x80  |Amount of circling items2|Determines how many circling items you have left/can use.
 |[[0x3FB3CD70] + 0x28] - 0x50  |Time since last item use |Decimal Value.
-|[[0x3FB3CD70] + 0x28] + 0x58  |Displayed Item From Block|*000000XX = Item in player's hand.
+|[[0x3FB3CD70] + 0x28] - 0x60  |If player is holding item|00000000 = Not holding, 01000000 = Holding
+|[[0x3FB3CD70] + 0x28] - 0x68  |If player can use blocks |00000000 = Can use blocks
+|[[0x3FB3CD70] + 0x28] - 0x90  |Displayed Item In Hand   |*000000XX = Item ID.
+|[[0x3FB3CD70] + 0x28] + 0x58  |Displayed Item From Block|*000000XX = Item ID.
 |[[0x3FB3CD70] + 0x28] + 0x5C  |Last Item From Block     |*000000XX = Last Item player got.
 |[[0x3FB3CD70] + 0x28] + 0x60  |Actual Item From Block   |*000000XX = Actual Item player gets.
 |[[0x3FB3CD70] + 0x28] + 0x6C  |Item Block Rotation Speed|FFFFFFFF = Slow/No Rotation.
