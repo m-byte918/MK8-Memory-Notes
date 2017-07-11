@@ -26,6 +26,7 @@
 |105F3310|Animation Speed             |3F800000 = Normal
 |105F6AE4|Music                       |3F800000 = On, 3FE00000 = Off
 |10620CE4|Gamma (brightness)          |3F800000 = Normal
+|4595AFE4|Current Coins               |Decimal Value, Offline only
 |4595B044|Current balloon amount      |Offline Battle Only, Decimal Value
 |4670F604|Current balloon amount (GUI)|Offline Battle Only, Decimal Value
 
