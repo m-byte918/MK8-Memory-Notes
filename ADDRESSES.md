@@ -21,14 +21,17 @@
 |Address |   What the value is        | Notes
 |--------|----------------------------|----------
 |1050F024|Object Collision            |3F800000 = Enabled, 00000000 = Disabled
+|1050F034|Player attraction to objects|34000000 = Normal
 |10510AC4|Race Start Camera           |3F800000 = On, 358637BD = Off
 |1051FD78|Star Pulse Intensity        |3F800000 = Normal
 |105F3310|Animation Speed             |3F800000 = Normal
 |105F6AE4|Music                       |3F800000 = On, 3FE00000 = Off
 |10620CE4|Gamma (brightness)          |3F800000 = Normal
 |4595AFE4|Current Coins               |Decimal Value, Offline only
+|4595AFCC|Race won state?             |00000006 = Won with 1st Place, offline only.
+|4595AFD0|Place                       |Offline only
 |4595B044|Current balloon amount      |Offline Battle Only, Decimal Value
-|4670F604|Current balloon amount (GUI)|Offline Battle Only, Decimal Value
+|4670F604|Baloons Popped amount (GUI) |Offline Battle Only, Decimal Value
 
 ## _Kart Data_
 |Address |What the value is| Notes
